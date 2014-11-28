@@ -56,3 +56,4 @@ macro AutoFillBrace()
 	InsBufLine(hbuf, lnCurrent+1, cat(blankline, righttext))
 	SetBufIns(hbuf, lnCurrent+1, startpos)
 }
+
